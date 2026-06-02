@@ -1,7 +1,7 @@
 # ✦ Payments Regulations Navigator - A RAG Agent Built in n8n
 > The README is longer than most because the decisions are the portfolio, not just the output.
 ## Why I Built This
-As a PM at Wells Fargo working on debit card and digital wallet products, I regularly need to answer regulatory questions before a PRD is written — what error resolution timeline applies here, does Reg II routing affect this tokenized transaction, does the CFPB Prepaid Rule change our disclosure requirements.
+As a PM at Wells Fargo working on debit card and digital wallet products, I regularly needed to answer regulatory questions before a PRD was written — what error resolution timeline applies here, does Reg II routing affect this tokenized transaction, does the CFPB Prepaid Rule change our disclosure requirements.
 These are scoping questions. They shape the PRD, the edge cases you hand to engineering, and the UX decisions you make in week one. Getting them wrong means rework.
 Regulation E, Electronic Fund Transfer Act (EFTA), the Nacha Operating Rules, the CFPB Prepaid Rule — none of these reference each other, none are easily searchable, and a single product question can touch four sources before you have a usable answer.
 The documents exist. The knowledge exists. The problem is retrieval.
