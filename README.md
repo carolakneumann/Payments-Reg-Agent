@@ -3,7 +3,7 @@
 ## Why I Built This
 As a PM at Wells Fargo working on debit card and digital wallet products, I regularly needed to answer regulatory questions before a PRD was written — what error resolution timeline applies here, does Reg II routing affect this tokenized transaction, does the CFPB Prepaid Rule change our disclosure requirements.
 These are scoping questions. They shape the PRD, the edge cases you hand to engineering, and the UX decisions you make in week one. Getting them wrong means rework.
-Regulation E, Electronic Fund Transfer Act (EFTA), the Nacha Operating Rules, the CFPB Prepaid Rule — none of these reference each other, none are easily searchable, and a single product question can touch four sources before you have a usable answer.
+Regulation E, Electronic Fund Transfer Act (EFTA), the NACHA Operating Rules, the CFPB Prepaid Rule — none of these reference each other, none are easily searchable, and a single product question can touch four sources before you have a usable answer.
 The documents exist. The knowledge exists. The problem is retrieval.
 So I built a RAG agent in n8n that lets you ask natural language questions against a corpus of payments regulation documents and get cited, traceable answers pointing to the exact clause and source. The goal isn't to replace a regulatory review. It's to let a PM scope a feature without losing half a day to research.
 This README is not a polished product announcement. It's a record of what I built, what broke, what I changed, and what I still don't trust the system to do.
