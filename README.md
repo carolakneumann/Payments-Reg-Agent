@@ -1,5 +1,5 @@
 # ✦ Payments Regulations Navigator - A RAG Agent Built in n8n
-> Built as part of an AI PM portfolio. The README is longer than most because the decisions are the portfolio, not just the output.
+> The README is longer than most because the decisions are the portfolio, not just the output.
 ## Why I Built This
 As a PM at Wells Fargo working on debit card and digital wallet products, I regularly need to answer regulatory questions before a PRD is written — what error resolution timeline applies here, does Reg II routing affect this tokenized transaction, does the CFPB Prepaid Rule change our disclosure requirements.
 These are scoping questions. They shape the PRD, the edge cases you hand to engineering, and the UX decisions you make in week one. Getting them wrong means rework.
