@@ -43,6 +43,7 @@ Tables are still partially broken. Regulatory documents embed critical informati
 I don't trust it for legal decisions. The agent is a research accelerator, not a compliance officer. Every answer surfaces its source documents and chunk references for a reason — so a human can verify. I built that into the UX intentionally, not as a disclaimer, but because the product wouldn't be honest without it.
 
 What I'd Do Differently
+
 If I were starting over, I'd spend the first sprint on nothing but document quality assessment before writing a single line of retrieval logic. I'd also build the evaluation harness — a set of known questions with verified answers — before building the agent itself. Testing against real questions revealed failure modes that no amount of vibes-checking the demo ever would have.
 I'd also be more skeptical of my own retrieval quality metrics early on. Watching an agent answer test questions correctly is not the same as the agent being reliable. The questions that really test a RAG system are the ones you didn't think to ask.
 
